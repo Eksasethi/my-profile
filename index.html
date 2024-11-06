@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        /* Full-screen styling */
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        /* Full-screen iframe container */
+        .iframe-container {
+            position: fixed;  /* Use fixed position to cover entire screen */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Styling for the iframe */
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe loading="lazy" src="https://www.canva.com/design/DAGVsmAC21g/HHrEnSinCLNAqRp4Py_Hgg/view?embed"></iframe>
+    </div>
+</body>
+</html>
